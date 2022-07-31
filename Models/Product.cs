@@ -9,7 +9,7 @@ namespace MyWebFormsApp.Models
     public class Product
     {
         [ScaffoldColumn(false)]
-        public int ProductId { get; set; }
+        public int ProductID { get; set; }
 
         [Required, StringLength(100), Display(Name = "Name")]
         public string ProductName { get; set; }
